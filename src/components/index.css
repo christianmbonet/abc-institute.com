@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.firstPink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: pink;
+}
+
+.firstBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+}
+
+.secondBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.secondPink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: pink;
+}
+
+.secondBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+}
