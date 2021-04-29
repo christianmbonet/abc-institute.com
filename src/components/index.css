@@ -8,36 +8,48 @@
 
 .topRow {
     display: flex;
-    align-content: space-around;
 }
 
 
-.firstPink {
+.topLeftPink {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: hotpink;
 }
 
-.firstBlue {
+.topMiddleBlue {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: blue;
 }
 
-.topRight {
-    display: flex;
-}
-
-.secondPink {
+.topRightPink {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: hotpink;
 }
 
-.secondBlue {
+.middleRow {
+    display: flex;
+}
+
+.middleLeftBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+}
+
+.middleMiddle {
+    display: flex;
+    height: 125px;
+    width: 125px;
+}
+
+.middleRightBlue {
     display: flex;
     height: 125px;
     width: 125px;
@@ -46,8 +58,6 @@
 
 .bottomRow {
     display: flex;
-    justify-content: space-around;
-    align-content: space-between;
 }
 
 .bottomLeft {
@@ -55,32 +65,21 @@
     flex-direction: column;
 }
 
-.thirdPink {
+.bottomLeftPink {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: hotpink;
 }
 
-.thirdBlue {
+.bottomMiddleBlue {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: blue;
 }
 
-.bottomRight {
-    display: flex;
-}
-
-.fourthBlue {
-    display: flex;
-    height: 125px;
-    width: 125px;
-    background-color: blue;
-}
-
-.fourthPink {
+.bottomRightPink {
     display: flex;
     height: 125px;
     width: 125px;

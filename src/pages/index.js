@@ -4,22 +4,19 @@ import './../components/index.css'
 export default function Home() {
   return <div className='container'>
     <div className='topRow'>
-      <div className='topLeft'>
-        <div className='firstPink'></div>
-        <div className='firstBlue'></div>
-      </div>
-      <div className='topRight'>
-        <div className='secondBlue'></div>
-        <div className='secondPink'></div>
-      </div>
+        <div className='topLeftPink'></div>
+        <div className='topMiddleBlue'></div>
+        <div className='topRightPink'></div>
+    </div>
+    <div className='middleRow'>
+        <div className='middleLeftBlue'></div>
+        <div className='middleMiddle'></div>
+        <div className='middleRightBlue'></div>
     </div>
     <div className='bottomRow'>
-        <div className='bottomLeft'></div>
-          <div className='thirdPink'></div>
-          <div className='thirdBlue'></div>
-        <div className='bottomRight'></div>
-          <div className='fourthBlue'></div>
-          <div className='fourthPink'></div>
+        <div className='bottomLeftPink'></div>
+        <div className='bottomMiddleBlue'></div>
+        <div className='bottomRightPink'></div>
     </div>
   </div>
 }
