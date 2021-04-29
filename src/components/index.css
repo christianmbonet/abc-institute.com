@@ -1,11 +1,14 @@
+
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
 }
 
 .topRow {
     display: flex;
-    flex-direction: row;
+    align-content: space-around;
 }
 
 
@@ -13,7 +16,7 @@
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: pink;
+    background-color: hotpink;
 }
 
 .firstBlue {
@@ -23,17 +26,15 @@
     background-color: blue;
 }
 
-.secondBlock {
+.topRight {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 
 .secondPink {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: pink;
+    background-color: hotpink;
 }
 
 .secondBlue {
@@ -41,4 +42,47 @@
     height: 125px;
     width: 125px;
     background-color: blue;
+}
+
+.bottomRow {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.bottomLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdPink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: hotpink;
+}
+
+.thirdBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+}
+
+.bottomRight {
+    display: flex;
+}
+
+.fourthBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+}
+
+.fourthPink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: hotpink;
 }
