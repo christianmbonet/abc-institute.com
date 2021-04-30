@@ -55,14 +55,14 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: blueviolet;
+    background-color: lightblue;
 }
 
 .topRightLightBlue {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: lightblue;
+    background-color: hotpink;
 }
 
 .middleRow {
@@ -87,7 +87,7 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: white;
+    background-color: lightblue;
 }
 
 .middleRightBlue {
@@ -117,14 +117,14 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: blueviolet;
+    background-color: lightblue;
 }
 
 .bottomLeftLightBlue {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: lightblue;
+    background-color: hotpink;
 }
 
 .bottomMiddleBlue {
