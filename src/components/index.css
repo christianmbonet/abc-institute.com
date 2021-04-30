@@ -2,10 +2,19 @@ button {
     border: none;
 }
 
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    width: 100vh;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: middle;
     align-items: center;
 }
 
@@ -19,6 +28,13 @@ button {
     height: 125px;
     width: 125px;
     background-color: hotpink;
+}
+
+.topLeftLightBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blueviolet;
 }
 
 .topMiddleBlue {
@@ -39,7 +55,14 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: hotpink;
+    background-color: blueviolet;
+}
+
+.topRightLightBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: lightblue;
 }
 
 .middleRow {
@@ -94,7 +117,14 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: hotpink;
+    background-color: blueviolet;
+}
+
+.bottomLeftLightBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: lightblue;
 }
 
 .bottomMiddleBlue {
@@ -116,4 +146,11 @@ button {
     height: 125px;
     width: 125px;
     background-color: hotpink;
+}
+
+.bottomRightLightBlue {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blueviolet;
 }
