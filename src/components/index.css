@@ -1,5 +1,6 @@
-
-
+button {
+    border: none;
+}
 
 .container {
     display: flex;
@@ -27,6 +28,13 @@
     background-color: blue;
 }
 
+.topMiddlePink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: pink;
+}
+
 .topRightPink {
     display: flex;
     height: 125px;
@@ -45,11 +53,18 @@
     background-color: blue;
 }
 
+.middleLeftPink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: pink;
+}
+
 .middleMiddle {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .middleRightBlue {
@@ -63,7 +78,7 @@
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: hotpink;
+    background-color: pink;
 }
 
 .bottomRow {
@@ -87,6 +102,13 @@
     height: 125px;
     width: 125px;
     background-color: blue;
+}
+
+.bottomMiddlePink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: pink;
 }
 
 .bottomRightPink {
