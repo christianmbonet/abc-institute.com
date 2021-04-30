@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import './../components/index.css'
 
 export default function Home() {
-  return <div className='container'>
+   
+  const [on, setOn] = useState(false);
+
+  const lightSwitch = () => setOn(on => !on);
+
+  return <div>
+  <div className='container'>
     <div className='topRow'>
         <div className='topLeftPink'></div>
         <div className='topMiddleBlue'></div>
@@ -10,13 +16,14 @@ export default function Home() {
     </div>
     <div className='middleRow'>
         <div className='middleLeftBlue'></div>
-        <div className='middleMiddle'></div>
-        <div className='middleRightBlue'></div>
+        <button className='middleMiddle' onClick={lightSwitch}></button>
+        <div className={on ? 'middleRightBlue' : 'middleRightPink'}></div>
     </div>
     <div className='bottomRow'>
         <div className='bottomLeftPink'></div>
         <div className='bottomMiddleBlue'></div>
         <div className='bottomRightPink'></div>
     </div>
+  </div>
   </div>
 }

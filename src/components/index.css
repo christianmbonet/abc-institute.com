@@ -1,9 +1,11 @@
 
+
+
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .topRow {
@@ -47,6 +49,7 @@
     display: flex;
     height: 125px;
     width: 125px;
+    background-color: lightgrey;
 }
 
 .middleRightBlue {
@@ -54,6 +57,13 @@
     height: 125px;
     width: 125px;
     background-color: blue;
+}
+
+.middleRightPink {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: hotpink;
 }
 
 .bottomRow {
